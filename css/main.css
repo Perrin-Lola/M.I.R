@@ -4197,6 +4197,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Ombre légère */
 }
 
+/* Footer */
+footer {
+  width: 100%;
+  background: #222; /* Fond sombre */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: auto; /* Permet de repousser le footer vers le bas UNIQUEMENT si la page est assez longue */
+}
+
+/* Logo du gouvernement */
+footer img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Texte du footer */
+footer span {
+  font-size: 15px;
+  font-weight: bold;
+}
 
 /*
 ################
